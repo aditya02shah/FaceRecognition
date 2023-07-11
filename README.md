@@ -9,7 +9,7 @@ Siamese networks measure similarity or dissimilarity between input samples. One-
 
  One-shot learning overcomes the need for a large number of samples per person, making it feasible to recognize individuals without prior extensive training.
 
-By leveraging Siamese Neural Networks and One-Shot Learning, face recognition becomes more practical and efficient in scenarios where collecting extensive labeled data is challenging or time-consuming. 
+By leveraging Siamese Neural Networks and One-Shot Learning, face recognition becomes more practical and efficient in scenarios where collecting extensive labeled data is challenging or time-consuming.  
 It opens up possibilities for surveillance systems, access control, and personalized user experiences, even with limited training resources.
 
 
@@ -23,7 +23,7 @@ The face recognition model requires a labeled dataset for training. The dataset 
 # Architecture
 The face recognition model is built using a Siamese Neural Network architecture. The Siamese network consists of two identical subnetworks  which share the same weights and architecture.
 
-Siamese networks are trained on face image pairs to extract discriminative feature embeddings. These embeddings encode essential characteristics of each face.  
+Siamese networks are trained on face image pairs to extract discriminative feature embeddings. These embeddings encode essential characteristics of each face.
  During inference, the model compares test face embeddings with known face embeddings for identification and verification.
 
 The model architecture consists of multiple convolutional and pooling layers, followed by a final embedding block with dense layers.
