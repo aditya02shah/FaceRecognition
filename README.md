@@ -16,9 +16,8 @@ It opens up possibilities for surveillance systems, access control, and personal
 # Dataset
 The face recognition model requires a labeled dataset for training. The dataset should contain images of people's faces, with each person's images grouped together. 
 
-Ensure that the dataset is organized in the following structure:
 
-![Screenshot](.Screenshots/Directory Structure.png)
+![Screenshot](.screenshots/Directory_Structure.png)
 
 
 # Architecture
