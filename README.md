@@ -29,11 +29,18 @@ Siamese networks are trained on face image pairs to extract discriminative featu
 The model architecture consists of multiple convolutional and pooling layers, followed by a final embedding block with dense layers.
 
 # Results
-Include any relevant information about the performance and accuracy of the face recognition system here.
 
 
+*Example 1:*
+A photo of me is verified by the Face Recognition App
+
+![Screenshot](./results/Verified_Result.png)
 
 
+*Example 2:*
+A photo of Arnold Schwarzenegger is not verified by the Face Recognition App
+
+![Screenshot](./results/UnVerified_Result.png)
 
 
 
