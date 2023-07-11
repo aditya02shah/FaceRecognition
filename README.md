@@ -18,23 +18,8 @@ The face recognition model requires a labeled dataset for training. The dataset 
 
 Ensure that the dataset is organized in the following structure:
 
-# Result
-**Example:**
-In this three second clip ,the speaker mouths the words "Bin Blue at F Two Now"
+![Screenshot](.Screenshots/Directory Structure.png)
 
-![Screenshot](./screenshots/bbaf2n.png)
-PHOTO HERE 
-
-dataset/  
-├── person1/  
-│   ├── image1.jpg  
-│   ├── image2.jpg  
-│   └── ...  
-├── person2/  
-│   ├── image1.jpg  
-│   ├── image2.jpg  
-│   └── ...  
-└── ...  
 
 # Architecture
 The face recognition model is built using a Siamese Neural Network architecture. The Siamese network consists of two identical subnetworks  which share the same weights and architecture.
